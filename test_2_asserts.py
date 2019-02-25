@@ -1,5 +1,3 @@
-# assert statement are the basic (and only needed!) verification tools!
-
 import random
 import time
 
