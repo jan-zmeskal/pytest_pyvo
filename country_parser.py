@@ -17,7 +17,7 @@ class CountryParser:
         self.sorting_key = None
 
     def _custom_sort(self, element):
-        return int(element[self.sorting_key])
+        return float(element[self.sorting_key])
 
     def _alphabet_sort(self, element):
         return element[self.COUNTRY_KEY]

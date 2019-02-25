@@ -12,7 +12,7 @@ def cheap_fixture():
 @pytest.fixture(scope='module')
 def expensive_fixture():
     print('\nInvoking expensive fixture')
-    time.sleep(5)
+    time.sleep(3)
     return 'Server is ready and running'
 
 
