@@ -1,2 +1,4 @@
+ansi2html
 pytest
+pytest-html
 wget

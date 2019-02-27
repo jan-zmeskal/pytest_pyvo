@@ -23,5 +23,5 @@ def test_steps():
 
     # Now let's wait a while and check if we are in the far future
     time.sleep(10000)
-    current_year = time.localtime().tm_year
+    current_year = time.localtime().tm_year, 'We are still not in the future...'
     assert current_year > 3000
